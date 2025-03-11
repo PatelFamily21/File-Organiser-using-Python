@@ -40,4 +40,4 @@ for file in os.listdir(source_folder):
                     print(f"OS error moving {file}: {e}")
                 break  # Exit inner loop after moving file
 
-print(f"Finished! Moved {files_moved} files. /n Works like a  charm!")
+print(f"Finished! Moved {files_moved} files. \n Works like a  charm!")
