@@ -1,7 +1,7 @@
 import os
 import shutil
 
-# Use absolute path to Downloads folder in home directory
+# Absolute path to Downloads folder in home directory
 source_folder = os.path.expanduser('~/Downloads')
 destination_folders = {
     'Images': ['.jpg', '.png', '.gif', '.jpeg', '.bmp'],
@@ -40,4 +40,4 @@ for file in os.listdir(source_folder):
                     print(f"OS error moving {file}: {e}")
                 break  # Exit inner loop after moving file
 
-print(f"Finished! Moved {files_moved} files.\nWorks like a  charm!")
+print(f"Finished! Moved {files_moved} files.")
